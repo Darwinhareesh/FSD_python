@@ -2,3 +2,6 @@ Django
 gunicorn
 django-cors-headers
 djangorestframework
+dj-database-url
+psycopg2-binary
+
