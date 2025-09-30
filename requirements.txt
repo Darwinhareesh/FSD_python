@@ -1,12 +1,9 @@
-
-decorator==5.1.1
-Django==5.2.6
-django-cors-headers==4.9.0
-djangorestframework==3.16.1
-
-mysql-connector==2.2.9
-mysqlclient==2.2.7
+Django
+django-cors-headers
+djangorestframework
 
 
 
-sqlparse==0.5.3
+
+
+
