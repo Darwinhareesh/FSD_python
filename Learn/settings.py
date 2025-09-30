@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-astbw@f04h$6^hw&du7=n$$*hk4xn6^r4po0i=$q(4bfy5d45$
 DEBUG = True
 
 
-
+ALLOWED_HOSTS = ["fsd-python-eemr.onrender.com"]
 
 # Application definition
 
@@ -149,9 +149,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
-
+import os
 STATIC_URL = 'static/'
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
